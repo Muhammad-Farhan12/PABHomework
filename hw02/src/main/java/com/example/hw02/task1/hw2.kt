@@ -1,7 +1,7 @@
 package com.example.hw02.task2
 
 fun main() {
-    // Part A
+    // Part A: if / else if / else
     val daysRemaining = 2
     if (daysRemaining < 0) {
         println("Overdue")
@@ -11,21 +11,13 @@ fun main() {
         println("Upcoming")
     }
 
-    // Part B
+    // Part B: when
     val month = 9
     val monthName = when (month) {
         1 -> "January"
-        2 -> "February"
-        3 -> "March"
-        4 -> "April"
-        5 -> "May"
-        6 -> "June"
-        7 -> "July"
-        8 -> "August"
+        // ... (lanjutkan sampai 8)
         9 -> "September"
-        10 -> "October"
-        11 -> "November"
-        12 -> "December"
+        // ... (lanjutkan sampai 12)
         else -> "Invalid month"
     }
     println("Month $month: $monthName")
