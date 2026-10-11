@@ -11,7 +11,7 @@ fun calculateTotalCredits(courses: Int, creditsPerCourse: Int): Int {
 }
 
 fun main() {
-    // Part A
+    // Part A: Memanggil fungsi
     val total1 = calculateStudyMinutes(3, 25)
     println("Total study time: $total1 minutes")
 
@@ -20,7 +20,7 @@ fun main() {
 
     println()
 
-    // Part B
+    // Part B: Memanggil fungsi di dalam loop
     for (courses in 1..5) {
         val totalCredits = calculateTotalCredits(courses, 3)
         println("Courses: $courses, total credits: $totalCredits")
